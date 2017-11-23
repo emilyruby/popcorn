@@ -1,11 +1,11 @@
 {
-   "name": "popcorn",
-   "version": "1.0.0",
-   "description": "Full Stack Movie Search Application",
-   "main": "app.js",
-   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1"
-   },
+  "name": "popcorn",
+  "version": "1.0.0",
+  "description": "Full Stack Movie Search Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emilyruby/popcorn.git"
@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/emilyruby/popcorn#readme",
   "dependencies": {
-     "algoliasearch": "^3.24.6",
-     "body-parser": "^1.18.2",
-     "express": "^4.16.2",
-     "path": "^0.12.7",
-     "request-image-size": "^2.1.0",
-     "validator": "^9.1.1"
-   }
+    "algoliasearch": "^3.24.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "request-image-size": "^2.1.0",
+    "validator": "^9.1.1"
+  }
 }
