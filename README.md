@@ -20,7 +20,7 @@ Go back to the root directory, and run the command `node server/app.js` and you 
 
 * I would alter the structure of the application to be slightly better with the React Router.
 * I would change some aspects of the design.
-* Improve accessibility features of the site, especially regarding contrasts and alt strings for images, and tab navigation.
+* Improve accessibility features of the site, especially regarding contrasts and alt strings for images, and tab navigation. Change the 'delete movie' div to a button so that screenreaders, etc, can actually mimick the click event.
 * Research how to trigger a new search using AlgoliaSearch after clearing the cache so that the results in the UI are dynamically updated when something is deleted.
 * Modify the stars and form so that we work with score rather than rating, so it is more interesting than every movie having 3 stars!
 * Not use Glamor as an alternative for Scoped CSS (something I'm very used to with Vue, but was playing with ways to do it with React- I think I would use Styled Components).
