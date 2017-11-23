@@ -6,7 +6,7 @@ My code for the Algolia full-stack application challenge.
 
 Clone this repository. 
 
-Run `npm install` in the root directory to install the dependencies. 
+Run `npm install` in the both `app/` and `server/` directories to install the dependencies. 
 
 Export an `APP_ID`, `API_KEY` in your env with the command `export APP_ID='VALUE'`. These will then be used when you run the application.
 
