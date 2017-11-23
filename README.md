@@ -4,11 +4,13 @@ My code for the Algolia full-stack application challenge.
 
 ## How to Run It
 
-Clone this repository. 
+Clone this repository.
 
-Run `npm install` in the both `app/` and `server/` directories to install the dependencies. 
+Run `npm install` in the both `app/` and `server/` directories to install the dependencies.
 
-Export an `APP_ID`, `API_KEY` in your env with the command `export APP_ID='VALUE'`. These will then be used when you run the application.
+Export an `API_KEY` (with add and delete privileges) in your env with the command `export API_KEY='VALUE'`. This will then be used by the server when you run the application.
+
+You can also modify the `APP_ID` and `API_KEY` in `app/src/algolia.js` if you wish to use your own application.
 
 Go to `app/src/algolia.js` and modify the API_KEY and APP_ID to your own.
 
