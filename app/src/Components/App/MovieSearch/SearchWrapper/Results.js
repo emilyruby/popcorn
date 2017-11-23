@@ -24,7 +24,7 @@ const noResults = css({
   'height': '40vh',
   'display': 'flex',
   'alignItems': 'center',
-  'color': 'white'
+  'color': 'black'
 })
 
 const Content = connectStateResults(
