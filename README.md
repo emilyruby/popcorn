@@ -12,8 +12,6 @@ Export an `API_KEY` (with add and delete privileges) in your env with the comman
 
 You can also modify the `APP_ID` and `API_KEY` in `app/src/algolia.js` if you wish to use your own application.
 
-Go to `app/src/algolia.js` and modify the API_KEY and APP_ID to your own.
-
 Go into the `app/` directory and run `npm run build` to build a minified and optimised version of the app to serve.
 
 Go back to the root directory, and run the command `node server/app.js` and you should get the response `App is now listening on port 9000!`.
