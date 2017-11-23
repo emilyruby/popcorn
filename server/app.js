@@ -6,7 +6,7 @@ const requestImageSize = require('request-image-size')
 const path = require('path')
 
 const app = express()
-const client = algoliasearch('H1LZZCXWZT', process.env.API_KEY)
+const client = algoliasearch(process.env.APP_ID, process.env.API_KEY)
 const index = client.initIndex('movies')
 
 app.use(express.static(path.join(__dirname, '../app/build')))
